@@ -1,0 +1,57 @@
+Week,Day,Date,FPGA Tasks,SDR Tasks,Advanced Theory,Resources
+Week 1,Day 1,Monday,Install Vivado Design Suite. Set up FPGA development environment. Read Nexys A7 Reference Manual.,Install ADALM-Pluto SDR software. Set up SDR development environment.,Study FPGA architecture. Introduction to SDR fundamentals.,Vivado Installation Guide; Nexys A7 Manual; ADALM-Pluto Quick Start Guide
+Week 1,Day 2,Tuesday,Choose HDL (Verilog or VHDL). Review basic syntax and structures.,Familiarize with ADALM-Pluto hardware. Perform initial SDR tests.,Learn basics of Digital Signal Processing (DSP).,Verilog/VHDL Tutorial; DSP Introduction
+Week 1,Day 3,Wednesday,Write and simulate LED Blinker. Learn project creation in Vivado.,Learn GNU Radio Companion basics. Create a simple flowgraph.,Study Sampling Theory and Nyquist-Shannon Theorem.,LED Blinker Tutorial; GNU Radio Tutorials
+Week 1,Day 4,Thursday,Implement Switch Inputs controlling LEDs. Understand constraints file usage.,Receive FM radio broadcasts using SDR. Demodulate and listen to audio.,Explore Analog-to-Digital Conversion concepts.,Constraints File Usage; FM Receiver Tutorial
+Week 1,Day 5,Friday,Create Binary Counter displaying on LEDs. Explore timing constraints.,Transmit custom signals with SDR. Use MATLAB or Python scripts.,Study FIR Filters and their applications.,Counter Implementation Guide; SDR MATLAB Support
+Week 1,Day 6,Saturday,Experiment with Seven-Segment Display. Learn clock division and debouncing.,Use Spectrum Analyzer tools. Visualize signals in frequency domain.,Understand Frequency Domain Analysis.,Seven-Segment Display Tutorial; Signal Analysis Guides
+Week 1,Day 7,Sunday,Review and document week's FPGA learning. Summarize challenges and solutions.,Review and document week's SDR learning.,Consolidate understanding of DSP concepts.,N/A
+Week 2,Day 8,Monday,Implement a simple FIR filter in HDL. Simulate filter design.,Create a flowgraph to transmit and receive signals.,Study Convolution and its applications in DSP.,FIR Filter Tutorial; GNU Radio Tutorials
+Week 2,Day 9,Tuesday,Implement FIR filter on FPGA. Test with input signals.,Receive and process signals from FPGA using SDR.,Learn about Filter Design and Frequency Response.,Implementing FIR Filters on FPGA; SDR Processing Guides
+Week 2,Day 10,Wednesday,Explore DSP48E1 slice in FPGA. Implement MAC operations.,Implement basic modulation schemes in GNU Radio.,"Study Modulation Techniques: AM, FM, PM.",Xilinx DSP48E1 User Guide; Modulation Tutorials
+Week 2,Day 11,Thursday,Implement a simple UART transmitter in HDL. Simulate data transmission.,Implement UART receiver in GNU Radio. Test data reception from FPGA.,Learn about Serial Communication Protocols.,UART Implementation Guides; Serial Communication Tutorials
+Week 2,Day 12,Friday,Establish UART communication between FPGA and SDR. Verify data integrity and timing.,Develop loopback test for data exchange.,Study Error Detection and Correction Methods.,Communication Protocols Guides
+Week 2,Day 13,Saturday,Implement BPSK modulator in HDL. Simulate BPSK signals.,Demodulate BPSK signals using SDR. Analyze received data.,Understand Phase Shift Keying techniques.,BPSK Modulator Tutorial; BPSK Demodulation Guides
+Week 2,Day 14,Sunday,Review and document week's FPGA projects.,Review and document week's SDR projects.,Study Advanced Modulation Techniques.,N/A
+Week 3,Day 15,Monday,Implement QPSK modulator in HDL. Simulate QPSK signals.,Demodulate QPSK signals using SDR. Compare with BPSK results.,Learn about Quadrature Modulation.,QPSK Modulator Tutorial; QPSK Demodulation Guides
+Week 3,Day 16,Tuesday,Begin implementing FFT module in HDL. Understand its operation.,Use SDR to analyze frequency components of signals.,Study Fast Fourier Transform algorithms.,FFT Basics; FFT Implementation Guides
+Week 3,Day 17,Wednesday,Implement FFT on FPGA. Test with sample signals.,Visualize FFT results using SDR tools.,Explore Signal Spectrum Analysis.,FFT on FPGA Tutorials; Spectrum Analysis Guides
+Week 3,Day 18,Thursday,Implement convolutional encoder in HDL. Simulate encoding process.,Implement Viterbi decoder in GNU Radio. Test with encoded data.,Study Error Correction Codes.,Convolutional Codes Basics; Viterbi Algorithm Tutorials
+Week 3,Day 19,Friday,Integrate encoder with modulator on FPGA. Simulate end-to-end transmission.,Receive and decode data using SDR.,Understand Forward Error Correction (FEC).,FEC Implementation Guides
+Week 3,Day 20,Saturday,Optimize FPGA design for resource utilization.,Analyze SDR performance with optimized signals.,Study FPGA optimization techniques.,FPGA Optimization Techniques; SDR Performance Analysis
+Week 3,Day 21,Sunday,Review and document week's progress.,Plan for next week's advanced applications.,Study Adaptive Filtering methods.,N/A
+Week 4,Day 22,Monday,Implement adaptive filter in HDL. Simulate with varying inputs.,Use SDR to test filter performance in real-time.,Learn about LMS and RLS algorithms.,Adaptive Filter Tutorials; SDR Testing Guides
+Week 4,Day 23,Tuesday,Begin designing a simple OFDM system in HDL.,Generate and transmit OFDM signals using SDR.,Study Orthogonal Frequency Division Multiplexing.,OFDM Basics; OFDM Implementation Guides
+Week 4,Day 24,Wednesday,Implement OFDM transmitter on FPGA.,Receive and demodulate OFDM signals with SDR.,Understand Multicarrier Modulation.,FPGA OFDM Tutorials; SDR OFDM Reception
+Week 4,Day 25,Thursday,Introduce channel coding in OFDM system.,Analyze system performance under noise.,Study Channel Coding Techniques.,Channel Coding Guides; Noise Analysis Methods
+Week 4,Day 26,Friday,Implement MIMO concepts on FPGA (basic level).,Configure SDR for MIMO signal reception.,Learn about Multiple Input Multiple Output systems.,MIMO Basics; FPGA MIMO Implementation
+Week 4,Day 27,Saturday,Test MIMO system performance. Analyze spatial multiplexing.,Evaluate SDR's capability for MIMO processing.,Study Antenna Arrays and Beamforming.,MIMO Testing Guides; Beamforming Tutorials
+Week 4,Day 28,Sunday,Review and document week's advanced implementations.,Prepare reports on findings.,Study Software-Defined Networking concepts.,N/A
+Week 5,Day 29,Monday,"Implement basic DSP algorithms (e.g., filters, mixers).",Use SDR to test DSP algorithms in real-time.,Explore Digital Down Conversion techniques.,DSP Algorithm Guides; SDR Real-Time Testing
+Week 5,Day 30,Tuesday,Integrate DSP blocks into communication system on FPGA.,Measure system performance using SDR.,Study Signal Processing in Communication Systems.,Communication System Design Guides
+Week 5,Day 31,Wednesday,Implement a simple SDR on FPGA (transmitter side).,Receive signals with ADALM-Pluto SDR.,Understand SDR architectures and FPGA integration.,SDR on FPGA Tutorials
+Week 5,Day 32,Thursday,Explore cognitive radio concepts.,Configure SDR for dynamic spectrum access tests.,Study Cognitive Radio and Spectrum Sensing.,Cognitive Radio Tutorials; Spectrum Sensing Guides
+Week 5,Day 33,Friday,Implement spectrum sensing algorithms on FPGA.,Use SDR to detect and analyze signals.,Learn about Energy Detection Methods.,Spectrum Sensing Implementation
+Week 5,Day 34,Saturday,Test communication system under various channel conditions.,Simulate fading and interference using SDR.,Study Wireless Channel Models.,Channel Simulation Techniques
+Week 5,Day 35,Sunday,Review and consolidate advanced theory applications.,Update project documentation.,Prepare for system integration next week.,N/A
+Week 6,Day 36,Monday,Plan system integration of all modules on FPGA.,Create detailed block diagrams.,Study System Integration Strategies.,System Design Methodologies
+Week 6,Day 37,Tuesday,Integrate all FPGA modules into a single project.,Ensure compatibility and functionality.,Learn about System-on-Chip (SoC) Design.,FPGA Integration Guides
+Week 6,Day 38,Wednesday,Simulate integrated system with test data.,Debug and resolve issues.,Study Debugging Techniques for FPGA.,Simulation and Debugging Tools
+Week 6,Day 39,Thursday,Deploy integrated design onto FPGA hardware.,Set up SDR for full system testing.,Understand Hardware Testing Procedures.,Hardware Deployment Guides
+Week 6,Day 40,Friday,Perform end-to-end testing of communication system.,Measure key performance metrics.,Analyze System Performance Metrics.,Testing Methodologies
+Week 6,Day 41,Saturday,Introduce noise and interference to test robustness.,Adjust system parameters for optimization.,Study Robust System Design Principles.,Noise Introduction Techniques
+Week 6,Day 42,Sunday,Document test results and findings.,Identify areas for further optimization.,Prepare for final project adjustments.,N/A
+Week 7,Day 43,Monday,Optimize FPGA design for speed and efficiency.,Use advanced features in Vivado.,Learn about Timing Closure Techniques.,FPGA Optimization Guides
+Week 7,Day 44,Tuesday,Review and refine SDR configurations.,Ensure optimal signal processing.,Study Advanced SDR Techniques.,SDR Optimization Resources
+Week 7,Day 45,Wednesday,Conduct a thorough code review of FPGA projects.,Ensure adherence to best practices.,Understand Code Quality Metrics.,Coding Standards and Style Guides
+Week 7,Day 46,Thursday,Begin writing project report. Outline key sections.,Prepare SDR data visualizations for report.,Learn Effective Technical Writing Skills.,Technical Writing Guidelines
+Week 7,Day 47,Friday,Create diagrams and charts for FPGA designs.,Use tools for professional visualization.,Study Data Visualization Principles.,Visualization Tools Guides
+Week 7,Day 48,Saturday,Develop presentation slides summarizing the project.,Practice explaining technical concepts clearly.,Learn Presentation Skills and Techniques.,Effective Presentation Tips
+Week 7,Day 49,Sunday,Set up GitHub repository for project.,"Upload code, documentation, and resources.",Understand Version Control Systems.,GitHub Guides; Git Best Practices
+Week 8,Day 50,Monday,Review entire project for completeness.,Test all systems together.,Study Integration Testing Methods.,Project Review Checklists
+Week 8,Day 51,Tuesday,Prepare for potential interviews or presentations.,Anticipate technical questions.,Practice Communication Skills.,Interview Preparation Tips
+Week 8,Day 52,Wednesday,Update resume and include project highlights.,Tailor resume for applications to Seamatica.,Learn Resume Writing Best Practices.,Resume Writing Guides
+Week 8,Day 53,Thursday,Reach out to professional networks.,Share project experiences on LinkedIn.,Understand Networking Strategies.,Professional Networking Tips
+Week 8,Day 54,Friday,Submit applications to Seamatica and other companies.,Follow up on applications.,Study Job Application Strategies.,Job Application Guides
+Week 8,Day 55,Saturday,Continue refining project based on feedback.,Stay updated with latest industry trends.,Explore Continuous Learning Opportunities.,Industry News Sources
+Week 8,Day 56,Sunday,Reflect on the learning journey.,Plan next steps in career development.,Set goals for future learning.,Personal Development Guides
