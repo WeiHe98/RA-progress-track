@@ -66,7 +66,5 @@ Final message: Once the initial block has finished assigning values to SW and al
 
 
 
-##
-##
-##
+
 ## License: MIT
