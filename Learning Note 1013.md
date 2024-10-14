@@ -1,5 +1,5 @@
 # FPGA Learning Note
-## _10132024, Wei He_
+## _Wei He, 10132014_
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 
